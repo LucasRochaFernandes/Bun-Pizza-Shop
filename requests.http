@@ -1,0 +1,13 @@
+@baseUrl = http://localhost:3333
+
+# @name create_restaurant
+POST {{baseUrl}}/restaurants
+Content-Type: application/json
+
+{
+    "restaurantName": "Restaurant Name",
+    "managerName": "Manager Name",
+    "managerEmail": "manager@manager.com",
+    "managerPhone": "339999999",
+   "restaurantDescription": "Restaurant Description"
+}
