@@ -1,4 +1,4 @@
-# Project with Bun [Bun-Icon](https://github.com/marwin1991/profile-technology-icons/assets/136815194/7e9599e9-0570-4bb6-b17f-676ed589912f)
+# Project with Bun ![icon](https://github.com/marwin1991/profile-technology-icons/assets/136815194/7e9599e9-0570-4bb6-b17f-676ed589912f)
 
 To install dependencies:
 
