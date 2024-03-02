@@ -7,7 +7,17 @@ Content-Type: application/json
 {
     "restaurantName": "Restaurant Name",
     "managerName": "Manager Name",
-    "managerEmail": "manager@manager.com",
+    "managerEmail": "manager2",
     "managerPhone": "339999999",
    "restaurantDescription": "Restaurant Description"
+}
+
+###
+
+# @name authenticate
+POST {{baseUrl}}/sessions
+Content-Type: application/json
+
+{
+    "email": "admin@admin.com"
 }
