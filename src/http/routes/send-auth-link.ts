@@ -18,7 +18,7 @@ export const sendAuthLink = new Elysia().post('/sessions', async ({ body }) => {
   if (!userFromEmail) {
     throw new Error('Invalid credentials')
   }
-  const authLinkCode = crypto.randomUUID().concat(crypto.randomUUID())
+  const authLinkCode = crypto.randomUUID()
 
   await db.insert(authLinks).values({
     userId: userFromEmail.id,
