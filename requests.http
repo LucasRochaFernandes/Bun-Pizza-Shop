@@ -18,6 +18,17 @@ Content-Type: application/json
 POST {{baseUrl}}/sessions
 Content-Type: application/json
 
+
 {
     "email": "admin@admin.com"
 }
+
+
+###
+
+# @name profile
+GET {{baseUrl}}/me
+Cookie: auth=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJvbXAxbHRqYjhoOWJucnVocTRrN2F5bHciLCJyZXN0YXVyYW50SWQiOiJvNmoya2Qwcm92NGRqMXRta3c5amV3d2kifQ.lYILwR_1p1Q9XMu7l5w0pjGr8In2ZoBOWttYzy3RJq0
+
+
+
