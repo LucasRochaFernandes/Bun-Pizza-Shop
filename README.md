@@ -1,5 +1,5 @@
 # Project with Bun 
-<div><h1>Project with bun</h1><p align="center">
+<div><p align="center">
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=bun" />
   </a>
